@@ -23,15 +23,7 @@ header {
     justify-content: flex-end;
 }
 
-/***
-nomeutente------nomeutente
-user------ utente
-microphone ---- mic
-infoutente ---- infoutente
 
-
-
-**/
 header .bottone a {
     text-decoration: none;
     color: white;
@@ -136,4 +128,10 @@ header .bottone a {
 .bottom-bar .barselezione #finechiamata {
     color: #FF0000;
     background-color: #4A4A4A;
+}
+.bar-item:hover{
+    background-color: #4A4A4A;
+}
+#finechiamata:hover{
+    background-color: #272727;
 }
