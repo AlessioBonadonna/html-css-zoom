@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 246px;
+    height: 146px;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+/* header */
+header {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+header .bottone a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.bottone {
+    background-color: #4A4A4A;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 5px;
+}
+a:visited{
+    color :white;
+}/*levareeeeeee!!!*/
