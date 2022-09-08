@@ -23,7 +23,15 @@ header {
     justify-content: flex-end;
 }
 
+/***
+nomeutente------nomeutente
+user------ utente
+microphone ---- mic
+infoutente ---- infoutente
 
+
+
+**/
 header .bottone a {
     text-decoration: none;
     color: white;
@@ -36,7 +44,7 @@ header .bottone a {
     padding: 5px 5px;
     margin: 5px;
 }
-/*levareeeeeee!!!*/
+/****main**/
 .container {
     padding-top: 85px;
     padding-bottom: 15px;
@@ -57,7 +65,7 @@ header .bottone a {
     margin: 5px 2px;
 }
 
-.container .user .user-info {
+.container .user .infoutente {
     display: flex;
     position: absolute;
     bottom: 0;
@@ -69,12 +77,63 @@ header .bottone a {
     max-width: 80%;
 }
 
-.container .user .user-info .user-nickname{
+.container .user .infoutente .nomeutente{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.container .user .user-info .user-microphone {
+.container .user .infoutente .microphone {
     margin-right: 2px;
+}
+/******* FOOTER******/
+
+.bottom-bar {
+    bottom: 0;
+    height: 55px;
+    width: 100%;
+    background-color: #272727;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-bar .barselezione {
+    display: flex;
+}
+
+.bottom-bar .barselezione .bar-item {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.bottom-bar .barselezione .bar-item .iconaitem {
+    font-size: 17px;
+}
+
+.bottom-bar .barselezione .bar-item .descrizione {
+    font-size: 9px;
+    margin: 7px 0;
+}
+
+.bottom-bar .barselezione .bar-item .item-more {
+    font-size: 8px;
+    margin: 2px 15px;
+}
+
+.bottom-bar .barselezione #share-screen {
+    margin-right: 15px;
+}
+
+.bottom-bar .barselezione #share-screen .iconaitem{
+    color: #4BC800;
+}
+
+.bottom-bar .barselezione #finechiamata {
+    color: #FF0000;
+    background-color: #4A4A4A;
 }
